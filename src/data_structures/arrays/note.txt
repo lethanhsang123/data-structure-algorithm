@@ -1,0 +1,11 @@
+- abstraction: is an important aspect of software engineering
+    + HOW am operation is performed inside a class
+    + WHAT's visible class user
+    + make it easier to design a program because we don't need to think about implementation details at too early a stage
+      in the design process
+
+- Arrays in Java are objects (use new to create arrays)
+    + When we insert an item into this array, the correct location must be found for the insertion: just above a smaller
+        value and just below a larger one. Then all the larger values must be moved up to make room
+    + Order arrays decision speeds up searching somewhat but slows down insertion
+- advantage ordered arrays
