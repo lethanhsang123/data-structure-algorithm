@@ -8,4 +8,9 @@
     + When we insert an item into this array, the correct location must be found for the insertion: just above a smaller
         value and just below a larger one. Then all the larger values must be moved up to make room
     + Order arrays decision speeds up searching somewhat but slows down insertion
-- advantage ordered arrays
+- Ordered arrays
+    + The major advantages is that search times are much faster than is an unordered arrays
+    + The disadvantage is that insertion takes longer because all the data items sorted
+    + Deletions are slow in both ordered and unordered arrays because items must be moved
+- Logarithms:
+    +
