@@ -1,4 +1,4 @@
-package data_structures.arrays;
+package data_structures_and_algorithms.arrays;
 
 public interface HighOperation <T>{
     int insert(T value);

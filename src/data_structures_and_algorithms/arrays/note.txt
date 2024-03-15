@@ -12,5 +12,12 @@
     + The major advantages is that search times are much faster than is an unordered arrays
     + The disadvantage is that insertion takes longer because all the data items sorted
     + Deletions are slow in both ordered and unordered arrays because items must be moved
-- Logarithms:
+- Logarithms: Notice the differences between binary search times and linear search times. Searching 10 items would take
+    an average of five comparisons with a linear search (N/2) and a maximum of four
+    comparisons with a binary search. But the more items there are, the bigger the difference. With 100 items...
+    We can conclude that for all but very small arrays, unsorted arrays, target element is near the beginning,
+    the binary search is greatly superior.
+- The equation:
+- Binary Search (Log2(n))
+- Big O Notation:
     +

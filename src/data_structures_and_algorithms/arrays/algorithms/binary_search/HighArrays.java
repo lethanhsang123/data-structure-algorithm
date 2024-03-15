@@ -1,6 +1,6 @@
-package algorithms.searching.arrays.binary_search;
+package data_structures_and_algorithms.arrays.algorithms.binary_search;
 
-import data_structures.arrays.IntegerHighOperations;
+import data_structures_and_algorithms.arrays.IntegerHighOperations;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -53,18 +53,5 @@ public class HighArrays implements IntegerHighOperations {
     @Override
     public void printf() {
         System.out.println(Arrays.toString(arr));
-    }
-}
-
-
-class Test {
-
-    public final Type a = Type.TYPE_1;
-    public static void main(String[] args) {
-        HighArrays arrays = new HighArrays(5, 2, 3, 4, 5, 6);
-        arrays.printf();
-        System.out.println("Check: " + arrays.find(1));
-
-
     }
 }
